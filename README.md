@@ -11,7 +11,7 @@ For multi-language plugin:
 -->
 ## Description
 
-Ce plugin Jarvis vous permet d'énnoncer le débit ADSL actuelle de votre ligne internet
+Ce plugin Jarvis vous permet d'énnoncer le débit ADSL actuelle de votre ligne internet et de l'évaluer.
 
 ## Languages
 
