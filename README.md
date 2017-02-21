@@ -10,7 +10,7 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Ce plugin vous permet d'énnoncer ledébit actuelle de votre ligne ADSL 
+Ce plugin Jarvis vous permet d'énnoncer ledébit actuelle de votre ligne ADSL 
 
 
 ## Languages
