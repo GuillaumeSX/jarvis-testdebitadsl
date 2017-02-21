@@ -10,22 +10,21 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Ce plugin Jarvis vous permet d'énnoncer ledébit actuelle de votre ligne ADSL 
 
+Ce plugin Jarvis vous permet d'énnoncer le débit ADSL actuelle de votre ligne internet
 
 ## Languages
 
 * Français
 
 
-
 ## Usage
 
 ```
 You: Quel est mon débit internet ?
-Jarvis: Je mesure cela, veuillez patienter un petit moment
-Jarvis Votre connection est de 1Méga bit par seconde.
+Jarvis: Je mesure cela, merci de patienter moins d'une minute...
+Jarvis Votre connection est de 1 Méga bits par seconde, ce qui n'est pas suffisant pour regarder la Télévision par l'ADSL en haute définition.
 
 ## Author
-[Jean-Bernard Hallez](http://domotiquefacile.fr/jarvis/plugins/multi-jarvis-testdebitadsl)
+[Jean-Bernard Hallez](http://domotiquefacile.fr/jarvis/plugins/jarvis-tesdebitadsl)
 
