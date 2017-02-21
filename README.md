@@ -24,7 +24,7 @@ Ce plugin Jarvis vous permet d'énnoncer le débit ADSL actuelle de votre ligne 
 You: Quel est mon débit internet ?
 Jarvis: Je mesure cela, merci de patienter moins d'une minute...
 Jarvis Votre connection est de 1 Méga bits par seconde, ce qui n'est pas suffisant pour regarder la Télévision par l'ADSL en haute définition.
-
+Jarvis Le debit maximum était de 4,22  Méga bits par seconde.
 ## Author
 [Jean-Bernard Hallez](http://domotiquefacile.fr/jarvis/plugins/jarvis-tesdebitadsl)
 
