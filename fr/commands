@@ -1,0 +1,1 @@
+*DEBIT*INTERNET==say "Je mesure cela, veuillez patienter un petit moment..." ; say "$(jv_pg_ct_testdebitinternet)"
