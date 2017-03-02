@@ -73,12 +73,11 @@ fi
 } 
 
 jv_pg_ct_testdebitinternetmax(){
+CHEMINDEBITMAX="$jv_dir/plugins/jarvis-testdebitadsl/debitmax.txt"
 if [ -f "$CHEMINDEBITMAX" ]; then
 	# fichier existe
-CHEMINDEBITMAX="$jv_dir/plugins/jarvis-testdebitadsl/debitmax.txt"
 MESUEDEBITMAX=`echo $(cat $CHEMINDEBITMAX)`
 MESUEDEBITMAXDATE=`date -r $CHEMINDEBITMAX "+%A %d %B à %H heure %M"`
-
 say "Le débit maximum relevé était de $MESUEDEBITMAX le $MESUEDEBITMAXDATE"
 else
 say "Il n'y a pas encore de relevé faites, désolé."
@@ -86,14 +85,13 @@ fi
 }
 
 jv_pg_ct_testdebitinternetmin(){
+CHEMINDEBITMIN="$jv_dir/plugins/jarvis-testdebitadsl/debitmin.txt"
 if [ -f "$CHEMINDEBITMIN" ]; then
 	# fichier existe
-CHEMINDEBITMIN="$jv_dir/plugins/jarvis-testdebitadsl/debitmin.txt"
 MESUEDEBITMIN=`echo $(cat $CHEMINDEBITMIN)`
 MESUEDEBITMINDATE=`date -r $CHEMINDEBITMIN "+%A %d %B à %H heure %M"`
 say "Le débit minimum relevé était de $MESUEDEBITMIN le $MESUEDEBITMINDATE"
 else
 say "Il n'y a pas encore de relevé faites, désolé."
 fi
-
 }
