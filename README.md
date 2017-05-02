@@ -10,6 +10,7 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
+(02/05/17 Correction suite modif du "plugins_installed")
 (02/03/2017 enregistre le débit minimum et maximum)
 Ce plugin Jarvis vous permet d'énnoncer le débit ADSL actuelle de votre ligne internet et de l'évaluer.
 

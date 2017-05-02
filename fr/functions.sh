@@ -12,8 +12,8 @@ mesuredebit1=`echo ${mesuredebit1%Upload*}` # enlève la fin
 mesuredebit2=`echo $mesuredebit1 | sed -e "s/Mbit\/s//g" | sed -e "s/Kbit\/s//g" | sed -e "s/\./,/g"`  # affiche que le chiffre
 mesuredebit1=`echo $mesuredebit1 | sed -e "s/Kbit\/s/Kilo bites par seconde/g"  | sed -e "s/Mbit\/s/Méga bites par seconde/g" | sed -e "s/\./,/g"` # convertis KB/MB en Kilo/Méga bites par seconde
 mesuredebit3=$(printf "%.2f" $mesuredebit2)  # Arrondi le chiffre à 2 virgule prêt
-CHEMINDEBITMAX="$jv_dir/plugins/jarvis-testdebitadsl/debitmax.txt"
-CHEMINDEBITMIN="$jv_dir/plugins/jarvis-testdebitadsl/debitmin.txt"
+CHEMINDEBITMAX="$jv_dir/plugins_installed/jarvis-testdebitadsl/debitmax.txt"
+CHEMINDEBITMIN="$jv_dir/plugins_installed/jarvis-testdebitadsl/debitmin.txt"
 
 	if [ -f "$CHEMINDEBITMAX" ]; then
 	# fichier existe
@@ -73,7 +73,7 @@ fi
 } 
 
 jv_pg_ct_testdebitinternetmax(){
-CHEMINDEBITMAX="$jv_dir/plugins/jarvis-testdebitadsl/debitmax.txt"
+CHEMINDEBITMAX="$jv_dir/plugins_installed/jarvis-testdebitadsl/debitmax.txt"
 if [ -f "$CHEMINDEBITMAX" ]; then
 	# fichier existe
 MESUEDEBITMAX=`echo $(cat $CHEMINDEBITMAX)`
@@ -85,7 +85,7 @@ fi
 }
 
 jv_pg_ct_testdebitinternetmin(){
-CHEMINDEBITMIN="$jv_dir/plugins/jarvis-testdebitadsl/debitmin.txt"
+CHEMINDEBITMIN="$jv_dir/plugins_installed/jarvis-testdebitadsl/debitmin.txt"
 if [ -f "$CHEMINDEBITMIN" ]; then
 	# fichier existe
 MESUEDEBITMIN=`echo $(cat $CHEMINDEBITMIN)`
